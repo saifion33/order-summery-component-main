@@ -130,3 +130,7 @@ h1 {
 .cursor-pointer {
     cursor: pointer;
 }
+.attribution{
+    text-align: center;
+    font-size: 15px;
+}
