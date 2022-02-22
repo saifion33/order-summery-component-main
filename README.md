@@ -14,14 +14,14 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Qr code](https://github.com/saifion33/QR-code-component/blob/main/images/Screenshot%20QR%20code.png)
+![Qr code](https://github.com/saifion33/QR-code-component/blob/main/images/Screenshot%20Order%20Summery.png)
 
 
 
 ### Links
 
-- Solution : [solution on frontend menter](https://your-solution-url.com)
-- Live Site : [See live preview](https://qr-code-component-preview.netlify.app/)
+- Solution : [solution on frontend menter](https://www.frontendmentor.io/solutions/order-summery-card-RLyW-v6Bk)
+- Live Site : [See live preview](https://order-summery-card-preview.netlify.app/)
 
 ## My process
 
