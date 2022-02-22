@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: var(--Pale-blue);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/pattern-background-desktop.svg) no-repeat top;
+    background-size: 120%;
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.card {
+    width: 320px;
+    background: white;
+    border-radius: 1em;
+}
+
+.img-container {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.img-container img {
+    max-width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.other-stuff-container {
+    padding: 1em;
+}
+
+.description-container {
+    margin: 1.8em 0.9em;
+    color: var(--Desaturated-blue);
+    font-size: 0.63em;
+    font-weight: 700;
+}
+
+.plan-container {
+    display: flex;
+    align-items: center;
+    background: var(--Very-pale-blue);
+    padding: 0.6em;
+    border-radius: 0.5em;
+    margin: 0.8em 0;
+}
+
+.plan-text-container {
+    margin-left: 1.4em;
+    margin-right: auto;
+    font-size: 0.7em;
+}
+
+.change-plan-link-container a {
+    font-size: 0.7em;
+}
+
+.change-plan-link-container a:hover {
+    text-decoration: none;
+    color: #766cf1;
+}
+
+#plan-price {
+    color: var(--Desaturated-blue);
+}
+
+.action-btn-container {
+    margin: 1.8em 0 1em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: 700;
+    font-size: 0.7em;
+}
+
+.payment-btn {
+    border: none;
+    background: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    padding:0.8em 0.6em;
+    border-radius: 0.4em;
+    box-shadow: 0 1em 0.9em var(--Pale-blue);
+}
+
+.payment-btn:hover {
+    background: #766cf1;
+}
+
+.cancal-btn {
+    color: var(--Desaturated-blue);
+    border: none;
+    background: none;
+}
+
+.cancal-btn:hover {
+    color: black;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
