@@ -14,7 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Qr code](https://github.com/saifion33/QR-code-component/blob/main/images/Screenshot%20Order%20Summery.png)
+![Qr code](https://github.com/saifion33/order-summery-component-main/blob/main/images/Screenshot%20Order%20Summery.png)
 
 
 
